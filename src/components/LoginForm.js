@@ -25,7 +25,7 @@ class LoginForm extends Component {
           <form>
             <div className="username">
               <label for="username">Username</label>
-              <input type="text" id="username" name="username" value="Thanh Lam"/>
+              <input type="text" id="username" name="username" value={this.props.email}/>
             </div>
 
             <div className="username">

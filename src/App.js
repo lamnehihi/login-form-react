@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <LoginForm />
+        <LoginForm email="ThanhLam@abc.com"/>
       </div>
     );
   }
